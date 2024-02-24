@@ -1,0 +1,25 @@
+* { margin:0; padding:0; } 
+html, body { width:100%; height:100%; } 
+canvas { display:block; }
+#controls {
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 2;
+  draggable: false;
+  color: white;
+}
+.grid {
+  color: white;
+  float: left;
+  draggable: false;
+}
+.cell{
+  width: 15px; height: 15px;
+  background: white;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

@@ -1,0 +1,18 @@
+<div id="controls">
+  <div id="draw-box">
+  </div>
+  <div id="painttool">
+    Fill
+    <input type="checkbox" onclick="toggleFill()" id="paint"/>
+    <br>
+    Preset: 
+    <select id="presets" onchange="loadPreset()">
+      <option value="none">none</option>
+      <option value="circle">circle</option>
+      <option value="sphere">sphere</option>
+      <option value="cube">cube frame</option>
+      <option value="chair">chair</option>
+      <option value="tree">tree</option>
+    </select>
+  </div>
+</div>
